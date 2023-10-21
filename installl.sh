@@ -23,7 +23,7 @@ sudo apt-get update
 sudo apt-get install -y oracle-java17-installer
 
 sudo apt install ffmpeg
-cd ..
+
 echo "Menu:"
 echo "1. MPD Player V2"
 echo "2. Lancar MOD"
