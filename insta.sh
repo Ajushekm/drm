@@ -22,7 +22,12 @@ sudo add-apt-repository ppa:linuxuprising/java
 sudo apt-get update
 sudo apt-get install -y oracle-java17-installer
 
-sudo apt install ffmpeg
+wget https://johnvansickle.com/ffmpeg/builds/ffmpeg-git-arm64-static.tar.xz
+tar -xf ffmpeg-git-arm64-static.tar.xz
+cd ffmpeg-git-20231006-arm64-static/
+sudo mv ffmpeg /usr/bin/
+sudo mv ffprobe /usr/bin/
+cd ..
 
 echo "Menu:"
 echo "1. MPD Player V2"
